@@ -23,4 +23,14 @@ async def on_message(message):
     if message.content.startswith('pepehands'):
         await message.channel.send('pepehands lmao!')
 
+@client.event
+async def on_reaction_add(reaction, user):
+    if reaction.emoji == '🔪':
+        msg = 'I see ' + user.name + ' has reacted with a knife. You think you\'re some real slick sh*t, huh?'
+        await reaction.message.channel.send(msg)
+        await reaction.message.channel.send('You better watch out punk 🤏👀')
+
+    if reaction.emoji == '🐸':
+        await message.channel.send('pepehands lmao! 🐸')
 client.run(TOKEN)
+B
