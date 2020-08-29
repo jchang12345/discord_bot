@@ -31,5 +31,5 @@ async def on_reaction_add(reaction, user):
         await reaction.message.channel.send('You better watch out punk 🤏👀')
 
     if reaction.emoji == '🐸':
-        await message.channel.send('pepehands lmao! 🐸')
+        await reaction.message.channel.send('pepehands lmao! 🐸🤲')
 client.run(TOKEN)
