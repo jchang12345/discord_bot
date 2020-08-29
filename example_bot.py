@@ -1,6 +1,6 @@
 import discord
-
-
+import random 
+# import json (for later)? idk 
 
 TOKEN='SOMETHING_SECRET_HAHA_IAINTJHAGINVINTOAJDSFL'
 
