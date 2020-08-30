@@ -4,7 +4,7 @@ import re
 import random 
 from random import randint
 
-TOKEN='NzQ5MzcwMDk5MDM4OTQ1Mzgz.X0q_Sg.GlVw5PkYZwnTULpFVKAlHJQKJpQ'
+TOKEN='OOPS I FORGOT IT WAS NOT SUPPOSED TO BE UPLOADED'
 client = discord.Client()
 champJSON = open('champion.json', 'r')
 champDict = json.loads(champJSON.read())['data']
